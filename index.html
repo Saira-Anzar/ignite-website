@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IGNITE — IEEE Student Branch LBSITW</title>
+<meta name="description" content="IGNITE: a technical event by IEEE Student Branch LBSITW sparking innovation, learning and collaboration.">
+
+<!-- Fonts: Space Grotesk (display), Inter (body), IBM Plex Mono (data/labels) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#home" class="nav__brand">
+      <span class="nav__spark" aria-hidden="true"></span>
+      IGNITE
+    </a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#about" class="nav__link">About IEEE</a>
+      <a href="#events" class="nav__link">Events</a>
+      <a href="#schedule" class="nav__link">Schedule</a>
+      <a href="#faq" class="nav__link">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME / HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero__trace" aria-hidden="true">
+      <svg viewBox="0 0 1000 280" preserveAspectRatio="none">
+        <path id="tracePath" d="M0,220 L160,220 L200,160 L420,160 L460,90 L760,90 L800,40 L1000,40"
+              fill="none" stroke="var(--line)" stroke-width="2"/>
+        <circle id="sparkDot" r="5" fill="var(--spark)"/>
+      </svg>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow">IEEE STUDENT BRANCH · LBSITW PRESENTS</p>
+      <h1 class="hero__title">IGNITE</h1>
+      <p class="hero__tagline">A technical event built to spark innovation, learning, and collaboration among students — workshops, challenges, and conversations that push curiosity into motion.</p>
+
+      <div class="hero__meta">
+        <span class="chip"><span class="chip__label">DATE</span>14 — 15 AUG 2026</span>
+        <span class="chip"><span class="chip__label">VENUE</span>LBSITW Main Auditorium</span>
+      </div>
+
+      <div class="hero__actions">
+        <a href="#events" class="btn btn--primary">Explore events</a>
+        <a href="#schedule" class="btn btn--ghost">View schedule</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT IEEE ============ -->
+  <section id="about" class="about">
+    <p class="eyebrow">ABOUT</p>
+    <h2 class="section-title">IEEE, and why IGNITE exists</h2>
+
+    <div class="about__grid">
+      <div class="about__block">
+        <h3>IEEE</h3>
+        <p>IEEE (Institute of Electrical and Electronics Engineers) is the world's largest technical professional
+        organization, advancing technology for the benefit of humanity through publications, conferences,
+        and community-driven standards.</p>
+      </div>
+
+      <div class="about__block">
+        <h3>IEEE Student Branch, LBSITW</h3>
+        <p>Our Student Branch brings IEEE's global network to campus — running workshops, speaker sessions,
+        and hands-on projects that help students build real technical skill outside the classroom.</p>
+      </div>
+
+      <div class="about__block">
+        <h3>Objective of IGNITE</h3>
+        <p>IGNITE exists to give students a single space to learn new tools, test their skills under pressure,
+        and meet people building in the same direction — across technical, professional, and interactive tracks.</p>
+      </div>
+    </div>
+
+    <div class="about__socials">
+      <a href="https://www.ieee.org" target="_blank" rel="noopener" class="social-link" aria-label="IEEE website">
+        <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.8 2.6 2.8 15.4 0 18M12 3c-2.8 2.6-2.8 15.4 0 18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        ieee.org
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+        Instagram
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="20" height="20"><rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="8" cy="8.5" r="1.1" fill="currentColor"/><path d="M8 11.5v6M12 17.5v-3.6c0-1.6 2.4-1.7 2.4 0v3.6M12 13.5v-2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ EVENTS ============ -->
+  <section id="events" class="events">
+    <p class="eyebrow">LINE-UP</p>
+    <h2 class="section-title">Events</h2>
+
+    <div class="events__controls">
+      <div class="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" class="search__icon"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" placeholder="Search events by name…" aria-label="Search events">
+      </div>
+
+      <div class="filters" id="filters" role="tablist" aria-label="Filter events by category">
+        <button class="filter-btn is-active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Technical">Technical</button>
+        <button class="filter-btn" data-filter="Professional">Professional</button>
+        <button class="filter-btn" data-filter="Interactive">Interactive</button>
+      </div>
+    </div>
+
+    <div class="events__grid" id="eventsGrid"><!-- cards injected by js/script.js --></div>
+    <p class="events__empty" id="eventsEmpty" hidden>No events match your search.</p>
+  </section>
+
+  <!-- ============ SCHEDULE ============ -->
+  <section id="schedule" class="schedule">
+    <p class="eyebrow">DAY PLAN</p>
+    <h2 class="section-title">Schedule</h2>
+
+    <div class="schedule__table" id="scheduleTable" role="table" aria-label="Event schedule">
+      <div class="schedule__row schedule__row--head" role="row">
+        <span role="columnheader">Time</span>
+        <span role="columnheader">Event</span>
+        <span role="columnheader">Track</span>
+      </div>
+      <!-- rows injected by js/script.js -->
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="faq">
+    <p class="eyebrow">QUESTIONS</p>
+    <h2 class="section-title">Frequently asked</h2>
+
+    <div class="faq__list" id="faqList"><!-- items injected by js/script.js --></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>IEEE Student Branch · LBSITW</p>
+  <p class="footer__muted">IGNITE 2026 — sample content for demo purposes.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
