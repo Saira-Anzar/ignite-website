@@ -2,8 +2,8 @@
 
 A responsive website for **IGNITE**, a technical event organized by the IEEE Student Branch, LBSITW. Built as part of the IEEE Web Team interview task.
 
-🔗 **Live site:** _add your deployed link here_
-📂 **Repo:** _add your GitHub repo link here_
+🔗 **Live site:** https://saira-anzar.github.io/ignite-website/
+📂 **Repo:** https://github.com/Saira-Anzar/ignite-website
 
 ## Features
 
