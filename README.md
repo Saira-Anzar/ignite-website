@@ -19,30 +19,16 @@ A responsive website for **IGNITE**, a technical event organized by the IEEE Stu
 
 ## Tech stack
 
-Built with **only HTML, CSS, and JavaScript** — no frameworks or libraries. Google Fonts (Space Grotesk, Inter, IBM Plex Mono) are loaded via CDN for typography.
+Built with **only HTML, CSS, and JavaScript** — no frameworks or libraries.
 
 ## Project structure
 
-```
 ignite-website/
 ├── index.html       # page structure and all 5 sections
 ├── css/
 │   └── style.css    # design tokens, layout, responsive breakpoints
 └── js/
     └── script.js     # event/schedule/FAQ data + filtering, search, nav, accordion logic
-```
-
-## Running locally
-
-1. Clone the repo:
-   ```bash
-   git clone <your-repo-url>
-   cd ignite-website
-   ```
-2. Open `index.html` directly in a browser, **or** use the VS Code "Live Server" extension:
-   right-click `index.html` → **Open with Live Server**
-
-No build step or dependencies required.
 
 ## Notes
 
